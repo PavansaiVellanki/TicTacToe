@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+
+	<!-- linking style sheet -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<!-- heading -->
+	<div>
+		<h1 class="heading">Welcome to Tic Tac Toe</h1>
+	</div>
+
+	<!-- Game board -->
+	<div class="gameBoard">
+		<!-- 9 Cells in Game board -->
+		<div class="tile bl bt"><span class="data"></span></div>
+		<div class="tile bt"><span class="data"></span></div>
+		<div class="tile bt br"><span class="data"></span></div>
+		<div class="tile bl"><span class="data"></span></div>
+		<div class="tile"><span class="data"></span></div>
+		<div class="tile br"><span class="data"></span></div>
+		<div class="tile bb bl"><span class="data"></span></div>
+		<div class="tile bb"><span class="data"></span></div>
+		<div class="tile bb br"><span class="data"></span></div>
+	</div>
+
+	<!-- chance and win indicator -->
+	<div class="info">
+		<h2 class="chance">X's Turn</h2>
+		<button class="btn">Reset</button>
+	</div>
+
+	<!-- linking java script -->
+	<script type="text/javascript" src="game.js"></script>
+
+</body>
+</html>
